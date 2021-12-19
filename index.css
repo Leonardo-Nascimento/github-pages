@@ -1,0 +1,25 @@
+#navBar {
+    background-color: #25b89a;
+}
+
+#imgNavBar{
+    height: 50px;
+}
+
+#navBar small{
+    color: white;
+    display: block;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    opacity: 0.75;
+    margin-bottom: -2px;
+    margin-top: -45px;
+    margin-left: 55px;
+}
+
+#navBar h3{
+    color: white;
+    margin-top: 25px;
+    margin-left: -188px;
+}
