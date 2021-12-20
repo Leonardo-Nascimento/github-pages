@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(245, 244, 244);
+}
+
 #navBar {
     background-color: #25b89a;
 }
@@ -33,3 +37,54 @@
     display: flex;
     margin-right: 16px;
 }
+
+#allInfo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 20%;
+}
+
+#headInfo {
+    /* align-items: center; */
+    /* margin: auto; */
+    display: flex;
+    margin-left: 15%;
+    margin-top: -100px;
+}
+
+#headInfo img{
+    height: 60px;
+   
+}
+
+#headInfo h1{
+    font-weight: lighter;
+   
+}
+
+
+
+#quadradoPrincipal{
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px 0px #c3c3c3;
+    width: 800px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+#quadradoPrincipal #dataValidade{
+    margin-bottom: 40px;
+}
+
+#quadradoPrincipal #button{
+    background-color: #1c937a; 
+    color: white;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    width: 90%;
+
+
+}
+
