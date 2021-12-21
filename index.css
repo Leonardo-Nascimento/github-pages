@@ -182,16 +182,14 @@ body{
 
     #quadradoPrincipal{
         width: 76%;
-        height: 900px;
+        height: 980px;
         margin-left: 12%;
     }
 
     #quadradoPrincipal p{
         
-        /* align-items: center; */
-
-        /* align-items: center;        
-        margin-top: 50px; */
+           
+        margin-top: 180px;
     }
 
     #quadradoPrincipal #button{
