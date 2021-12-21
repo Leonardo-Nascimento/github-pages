@@ -92,8 +92,9 @@ body{
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     #navBar{
+        height: 145px;
         display: flex;
         
     }
@@ -106,10 +107,15 @@ body{
     #headMobile{
         align-items: center;
         text-align: center;        
-        margin-top: -57px;
-        margin-left: 6%;
+        margin-top: -128px;
+        margin-bottom: 9%;
         color: white;
         display: flow-root;
+        letter-spacing: 0.5px;
+    }
+
+    #headMobile h3{
+        font-size: 55px;
     }
 
     #headInfo h1{
@@ -140,19 +146,22 @@ body{
     }
 
     #toggle_Icon img{
-        margin-left: 0px;
+        margin-left: -29%;
         align-items: flex-start;
-        height: 60px;
-        width: 60px;
+        height: 151px;
+        width: 162px;
+        position: fixed;
+        margin-top: -12px;
     }
     
     a#toggle_Icon {
-        position: absolute;
-        margin-left: -37%;
+        /* position: absolute;
+        margin-left: -37%; */
     }
 
     #headMobile small{
-        font-size: 11px;
+        opacity: 0.75;        
+        font-size: 28px;
         font-weight: 300;
     }
 
