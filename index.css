@@ -31,6 +31,11 @@ body{
 
 }
 
+#headMobile{
+    display: none;
+}
+
+
 #imgUser {
     height: 20px;
     margin-top: -41px;
@@ -43,7 +48,7 @@ body{
     align-items: center;
     text-align: center;
     position: relative;
-    margin-left: 20%;
+    
 }
 
 #headInfo {
@@ -51,7 +56,7 @@ body{
     /* margin: auto; */
     display: flex;
     margin-left: 15%;
-    margin-top: -100px;
+    margin-top: 30px;
 }
 
 #headInfo img{
@@ -60,8 +65,7 @@ body{
 }
 
 #headInfo h1{
-    font-weight: lighter;
-   
+    font-weight: lighter;   
 }
 
 
@@ -71,7 +75,7 @@ body{
     box-shadow: 1px 2px 4px 0px #c3c3c3;
     width: 800px;
     background-color: white;
-    margin-left: 50px;
+    margin-left: 10%;
 }
 
 #quadradoPrincipal #dataValidade{
@@ -85,6 +89,72 @@ body{
     margin-bottom: 5%;
     width: 90%;
 
+
+}
+
+@media (max-width: 700px) {
+    #navBar{
+        display: flex;
+        
+    }
+
+    #navBar a{
+        
+        display: none;
+    }
+
+    #headMobile{
+        align-items: center;
+        text-align: center;        
+        margin-top: -57px;
+        margin-left: 6%;
+        color: white;
+        display: flow-root;
+    }
+
+    #headInfo h1{
+        font-size: 28px;
+    }
+
+    #headInfo img{
+        height: 45px;
+        margin-top: -2px;
+    }
+
+    #labelComprovante{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    #quadradoPrincipal h4{
+        font-size: 20px;        
+    }
+
+    #myName{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    #dataValidade{
+        font-size: 16px;
+    }
+
+    #toggle_Icon img{
+        margin-left: 0px;
+        align-items: flex-start;
+        height: 60px;
+        width: 60px;
+    }
+    
+    a#toggle_Icon {
+        position: absolute;
+        margin-left: -37%;
+    }
+
+    #headMobile small{
+        font-size: 11px;
+        font-weight: 300;
+    }
 
 }
 
