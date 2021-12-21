@@ -118,31 +118,46 @@ body{
         font-size: 55px;
     }
 
+    #headInfo{
+        margin-top: -57px;
+    }
+
     #headInfo h1{
-        font-size: 28px;
+        font-size: 38px;
     }
 
     #headInfo img{
-        height: 45px;
-        margin-top: -2px;
+        margin-left: -91px;
+        margin-right: 60px;
+        height: 60px;        
     }
 
     #labelComprovante{
-        font-size: 20px;
-        margin-top: 30px;
+        text-align: center;
+        font-size: 38px;
+        width: 80%;
+        margin-top: 60px;
+        margin-left: 2em;
     }
 
     #quadradoPrincipal h4{
-        font-size: 20px;        
+        margin-top: 20px;
+        font-size: 40px;        
     }
 
     #myName{
         font-weight: 400;
-        font-size: 16px;
+        font-size: 33px;
+        margin-top: 20px;
     }
 
-    #dataValidade{
-        font-size: 18px;
+    #quadradoPrincipal #dataValidade{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        font-size: 35px;
+        width: 80%;
+        text-align: center;
+        margin-left: 2em;
     }
 
     #toggle_Icon img{
@@ -166,28 +181,33 @@ body{
     }
 
     #quadradoPrincipal{
-        width: 42%;
-        height: 700px;
-        margin-left: 27%;
+        width: 76%;
+        height: 900px;
+        margin-left: 12%;
     }
 
     #quadradoPrincipal p{
-        margin-left: 6%;
-        align-items: center;
-        margin-top: 270px;
-        position: absolute;
+        
+        /* align-items: center; */
 
         /* align-items: center;        
         margin-top: 50px; */
     }
 
     #quadradoPrincipal #button{
-        margin-top: 355px;
+        margin-top: 45px;
+        font-size: 36px;
+        height: 90px;
+        width: 70%;
     }
 
     #footer{
+        /* position: relative; */
+        margin-top: 25%;
+        margin-bottom: 20%;
         text-align: center;
-        margin-top: 30%;
+        font-size: 28px;
+        /*margin-top: 30%; */
     }
 
 }
