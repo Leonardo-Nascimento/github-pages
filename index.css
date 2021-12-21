@@ -92,11 +92,11 @@ body{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 736px) {
     #navBar{
         height: 145px;
         display: flex;
-        
+        width: 100%;
     }
 
     #navBar a{
@@ -128,7 +128,7 @@ body{
     }
 
     #labelComprovante{
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 30px;
     }
 
@@ -142,7 +142,7 @@ body{
     }
 
     #dataValidade{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #toggle_Icon img{
@@ -150,7 +150,7 @@ body{
         align-items: flex-start;
         height: 151px;
         width: 162px;
-        position: fixed;
+        position: absolute;
         margin-top: -12px;
     }
     
@@ -163,6 +163,17 @@ body{
         opacity: 0.75;        
         font-size: 28px;
         font-weight: 300;
+    }
+
+    #quadradoPrincipal{
+        width: 42%;
+        height: 388px;
+        margin-left: 27%;
+    }
+
+    #footer{
+        text-align: center;
+        margin-top: 5%;
     }
 
 }
