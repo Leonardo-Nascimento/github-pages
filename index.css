@@ -92,7 +92,7 @@ body{
 
 }
 
-@media (max-width: 736px) {
+@media (max-width: 2000px) {
     #navBar{
         height: 145px;
         display: flex;
@@ -167,13 +167,27 @@ body{
 
     #quadradoPrincipal{
         width: 42%;
-        height: 388px;
+        height: 700px;
         margin-left: 27%;
+    }
+
+    #quadradoPrincipal p{
+        margin-left: 6%;
+        align-items: center;
+        margin-top: 270px;
+        position: absolute;
+
+        /* align-items: center;        
+        margin-top: 50px; */
+    }
+
+    #quadradoPrincipal #button{
+        margin-top: 355px;
     }
 
     #footer{
         text-align: center;
-        margin-top: 5%;
+        margin-top: 30%;
     }
 
 }
